@@ -1,0 +1,1 @@
+This folder contains all the google colab notebooks to perform latent code regression, to directly regress the appropriate EG3D code, from a given input face image.
