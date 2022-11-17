@@ -10,8 +10,10 @@ In the overview of the pipeline, our latent code regressor is depicted. In essen
 Below you can find the relavant notebooks:
 | Description      | Link |
 | ----------- | ----------- |
-| Generate EG3D face data (image, depthmap and 3D .obj)| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/generate-synthetic-face-data/blob/main/colab_notebooks/eg3d.ipynb)|
-| Visualize synthetic face mesh | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/generate-synthetic-face-data/blob/main/colab_notebooks/visualize_mesh.ipynb)|
+| :point_right: $\color{red} ViT$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/vit_latent_code_training.ipynb)|
+| :point_right: $\color{blue} UNET-modified$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/unet_latent_code_training.ipynb)|
+|  :star: **Evalution**: Test custom input on both models (regressor + EG3D + 3D mesh) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebookslatent_code_regression.ipynb)|
+|  :smile: EG3D latent code interpolation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/latent_code_interpolation.ipynb)|
 
 
 
@@ -19,7 +21,7 @@ This repository is inspired by the EG3D [paper](https://nvlabs.github.io/eg3d/me
 
 Some of the results on synthetic and real data can be shown below. Both models perform comparably, resulting to some robust predictions. Neverthless, for real face images, there is some deviation from the original images, as shown below. The following [repository](https://github.com/cantonioupao/generate-synthetic-face-data), is being leveraged, to invert a large number of real images, and further fine-tune our regressor models, with real data, by obtaining the respective latent codes, for real face images. 
 
-![results](https://github.com/cantonioupao/generate-synthetic-face-data/blob/main/assets/eg3d_synthetic_training.png)
+![results](https://github.com/cantonioupao/eg3d-code-regressor/blob/main/assets/regression_results.png)
 
 More results, soon... :soon:
 
