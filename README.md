@@ -12,7 +12,7 @@ Below you can find the relavant notebooks:
 | ----------- | ----------- |
 | :point_right: $\color{red} ViT$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/vit_latent_code_training.ipynb)|
 | :point_right: $\color{blue} UNET-modified$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/unet_latent_code_training.ipynb)|
-|  :star: **Evalution**: Test custom input on both models (regressor + EG3D + 3D mesh) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebookslatent_code_regression.ipynb)|
+|  :star: **Evalution**: Test custom input on both models (regressor + EG3D + 3D mesh) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/latent_code_regression.ipynb)|
 |  :smile: EG3D latent code interpolation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/latent_code_interpolation.ipynb)|
 
 
