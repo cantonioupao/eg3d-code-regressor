@@ -10,11 +10,10 @@ In the overview of the pipeline, our latent code regressor is depicted. In essen
 Below you can find the relavant notebooks:
 | Description      | Link |
 | ----------- | ----------- |
-| :point_right: $\color{red} ViT$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/vit_latent_code_training.ipynb)|
-| :point_right: $\color{blue} UNET-modified$ latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/unet_latent_code_training.ipynb)|
+| 🔴 ViT latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/vit_latent_code_training.ipynb)|
+| 🟦 UNET-modified latent regressor training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/unet_latent_code_training.ipynb)|
 |  :star: **Evalution**: Test custom input on both models (regressor + EG3D + 3D mesh) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/latent_code_regression.ipynb)|
 |  :smile: EG3D latent code interpolation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cantonioupao/eg3d-code-regressor/blob/main/colab_notebooks/latent_code_interpolation.ipynb)|
-
 
 
 This repository is inspired by the EG3D [paper](https://nvlabs.github.io/eg3d/media/eg3d.pdf) and uses the codebase from [EG3D](https://github.com/NVlabs/eg3d). Please refer to the [project's webpage](https://arxiv.org/pdf/2112.07945.pdf) for more information.
